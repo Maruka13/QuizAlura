@@ -42,7 +42,14 @@ perguntas = [
           { "opcao": "Stormbreaker", "correto": false },
           { "opcao": "Gungnir", "correto": false }]
     },
-    
+    {
+        "pergunta": "Qual sobrenome do Naruto?",
+        "respostas": [
+        { "opcao": "Uchiha", "correto": false },
+        { "opcao": "Uzumaki", "correto": true },
+        { "opcao": "Haruno", "correto": false }]
+    },
+   
 ];
 
 // PARTE 2: Pegando os elementos do HTML
