@@ -35,7 +35,14 @@ perguntas = [
             { "opcao": "Bowser", "correto": false },
             { "opcao": "Peach", "correto": true }]
     },
- 
+    {
+        "pergunta": "Qual o nome do martelo do Thor?",
+        "respostas": [
+          { "opcao": "Mjölnir", "correto": true },
+          { "opcao": "Stormbreaker", "correto": false },
+          { "opcao": "Gungnir", "correto": false }]
+    },
+    
 ];
 
 // PARTE 2: Pegando os elementos do HTML
