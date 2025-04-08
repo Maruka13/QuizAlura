@@ -18,9 +18,15 @@ perguntas = [{
         "respostas": [
           { "opcao": "Drogon, Viserion e Rhaegal", "correto": true },
           { "opcao": "Bellion, Kaisel e Igris", "correto": false },
-          { "opcao": "Smarag, Agheel e Placidusax", "correto":  }]
+          { "opcao": "Smarag, Agheel e Placidusax", "correto": false }]
       }],
-     
+      [{
+        "pergunta": "Qual a raça do Goku?",
+        "respostas": [
+          { "opcao": "Saiyajin", "correto": true },
+          { "opcao": "Shin-jin", "correto": false },
+          { "opcao": "Tsufurujin", "correto": false }]
+      }],
   
   
 // PARTE 2: Pegando os elementos do HTML
