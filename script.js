@@ -63,7 +63,13 @@ perguntas = [
             { "opcao": "Hamster", "correto": false },
             { "opcao": "Ouriço", "correto": true }]
     },
-    
+    {
+        "pergunta": "Qual opção contém apenas personagens da DC Comics?",
+        "respostas": [
+            { "opcao": "Superman, Batman e Gavião Arqueiro", "correto": false },
+            { "opcao": "Lanterna Verde, Capitão Marvel e Robin", "correto": true },
+            { "opcao": "Feiticeira Escarlate, Flash e Magneto", "correto": false }]
+    },
 ];
 
 // PARTE 2: Pegando os elementos do HTML
