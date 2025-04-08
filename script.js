@@ -1,34 +1,57 @@
 // PARTE 1: Lista de perguntas e respostas
-perguntas = [{
-      "pergunta": "Qual é o pai do Luke Skywalker?",
-      "respostas": [
-        { "opcao": "Han Solo", "correto": false },
-        { "opcao": "Darth Vader", "correto": true },
-        { "opcao": "Mestre Yoda", "correto": false }]
-    }],
-    [{
+perguntas = [
+    {
+        "pergunta": "Qual é o pai do Luke Skywalker?",
+        "respostas": [
+            { "opcao": "Han Solo", "correto": false },
+            { "opcao": "Darth Vader", "correto": true },
+            { "opcao": "Mestre Yoda", "correto": false }]
+    },
+    {
         "pergunta": "Qual a composição do esqueleto do Wolverine?",
         "respostas": [
-          { "opcao": "Platina", "correto": false },
-          { "opcao": "Titanium", "correto": false },
-          { "opcao": "Adamântium", "correto": true }]
-      }],
-      [{
+            { "opcao": "Platina", "correto": false },
+            { "opcao": "Titanium", "correto": false },
+            { "opcao": "Adamântium", "correto": true }]
+    },
+    {
         "pergunta": "Qual o nome dos dragões da Daenerys Targaryen?",
         "respostas": [
-          { "opcao": "Drogon, Viserion e Rhaegal", "correto": true },
-          { "opcao": "Bellion, Kaisel e Igris", "correto": false },
-          { "opcao": "Smarag, Agheel e Placidusax", "correto": false }]
-      }],
-      [{
+            { "opcao": "Drogon, Viserion e Rhaegal", "correto": true },
+            { "opcao": "Bellion, Kaisel e Igris", "correto": false },
+            { "opcao": "Smarag, Agheel e Placidusax", "correto": false }]
+    },
+    {
         "pergunta": "Qual a raça do Goku?",
         "respostas": [
-          { "opcao": "Saiyajin", "correto": true },
-          { "opcao": "Shin-jin", "correto": false },
-          { "opcao": "Tsufurujin", "correto": false }]
-      }],
-  
-  
+            { "opcao": "Saiyajin", "correto": true },
+            { "opcao": "Shin-jin", "correto": false },
+            { "opcao": "Tsufurujin", "correto": false }]
+    }
+    /*
+    {
+        "pergunta": "?",
+        "respostas": [
+            { "opcao": "", "correto":  },
+            { "opcao": "", "correto":  },
+            { "opcao": "", "correto":  }]
+    },
+    {
+        "pergunta": "?",
+        "respostas": [
+        { "opcao": "", "correto":  },
+        { "opcao": "", "correto":  },
+        { "opcao": "", "correto":  }]
+    },
+    {
+        "pergunta": "?",
+        "respostas": [
+            { "opcao": "", "correto":  },
+            { "opcao": "", "correto":  },
+            { "opcao": "", "correto":  }]
+    } */
+];
+
 // PARTE 2: Pegando os elementos do HTML
 const perguntaElemento = document.querySelector(".pergunta");
 const respostasElemento = document.querySelector(".respostas");
@@ -69,7 +92,6 @@ function carregarPergunta() {
 
             // Se a resposta for correta (resposta.correto === true), incrementa o número de acertos
             if (resposta.correto) {
-                acertos = acertos + 1;
                 acertos++; // Incrementa o contador de acertos
             }
 
