@@ -56,7 +56,14 @@ perguntas = [
             { "opcao": "Stan Lee", "correto": true },
             { "opcao": "Steve Ditko", "correto": false }]
     },
-   
+    {
+        "pergunta": "O Sonic é um...",
+        "respostas": [
+            { "opcao": "Rato", "correto": false },
+            { "opcao": "Hamster", "correto": false },
+            { "opcao": "Ouriço", "correto": true }]
+    },
+    
 ];
 
 // PARTE 2: Pegando os elementos do HTML
