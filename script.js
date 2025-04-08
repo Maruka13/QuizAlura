@@ -13,6 +13,14 @@ perguntas = [{
           { "opcao": "Titanium", "correto": false },
           { "opcao": "Adamântium", "correto": true }]
       }],
+      [{
+        "pergunta": "Qual o nome dos dragões da Daenerys Targaryen?",
+        "respostas": [
+          { "opcao": "Drogon, Viserion e Rhaegal", "correto": true },
+          { "opcao": "Bellion, Kaisel e Igris", "correto": false },
+          { "opcao": "Smarag, Agheel e Placidusax", "correto":  }]
+      }],
+     
   
   
 // PARTE 2: Pegando os elementos do HTML
