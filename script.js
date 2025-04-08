@@ -49,6 +49,13 @@ perguntas = [
         { "opcao": "Uzumaki", "correto": true },
         { "opcao": "Haruno", "correto": false }]
     },
+    {
+        "pergunta": "Qual desses foi o criador mais querido da Marvel?",
+        "respostas": [
+            { "opcao": "Jack Kirby", "correto": false },
+            { "opcao": "Stan Lee", "correto": true },
+            { "opcao": "Steve Ditko", "correto": false }]
+    },
    
 ];
 
