@@ -5,7 +5,15 @@ perguntas = [{
         { "opcao": "Han Solo", "correto": false },
         { "opcao": "Darth Vader", "correto": true },
         { "opcao": "Mestre Yoda", "correto": false }]
-    }]
+    }],
+    [{
+        "pergunta": "Qual a composição do esqueleto do Wolverine?",
+        "respostas": [
+          { "opcao": "Platina", "correto": false },
+          { "opcao": "Titanium", "correto": false },
+          { "opcao": "Adamântium", "correto": true }]
+      }],
+  
   
 // PARTE 2: Pegando os elementos do HTML
 const perguntaElemento = document.querySelector(".pergunta");
