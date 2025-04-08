@@ -27,29 +27,15 @@ perguntas = [
             { "opcao": "Saiyajin", "correto": true },
             { "opcao": "Shin-jin", "correto": false },
             { "opcao": "Tsufurujin", "correto": false }]
-    }
-    /*
-    {
-        "pergunta": "?",
-        "respostas": [
-            { "opcao": "", "correto":  },
-            { "opcao": "", "correto":  },
-            { "opcao": "", "correto":  }]
     },
     {
-        "pergunta": "?",
+        "pergunta": "Qual o nome da princesa do Mário?",
         "respostas": [
-        { "opcao": "", "correto":  },
-        { "opcao": "", "correto":  },
-        { "opcao": "", "correto":  }]
+            { "opcao": "Leia", "correto": false },
+            { "opcao": "Bowser", "correto": false },
+            { "opcao": "Peach", "correto": true }]
     },
-    {
-        "pergunta": "?",
-        "respostas": [
-            { "opcao": "", "correto":  },
-            { "opcao": "", "correto":  },
-            { "opcao": "", "correto":  }]
-    } */
+ 
 ];
 
 // PARTE 2: Pegando os elementos do HTML
