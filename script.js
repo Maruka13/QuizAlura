@@ -1,6 +1,12 @@
 // PARTE 1: Lista de perguntas e respostas
-
-
+perguntas = [{
+      "pergunta": "Qual é o pai do Luke Skywalker?",
+      "respostas": [
+        { "opcao": "Han Solo", "correto": false },
+        { "opcao": "Darth Vader", "correto": true },
+        { "opcao": "Mestre Yoda", "correto": false }]
+    }]
+  
 // PARTE 2: Pegando os elementos do HTML
 const perguntaElemento = document.querySelector(".pergunta");
 const respostasElemento = document.querySelector(".respostas");
@@ -38,7 +44,7 @@ function carregarPergunta() {
 
         // Adiciona um evento de clique no botão
         botao.onclick = function () {
-            
+
             // Se a resposta for correta (resposta.correto === true), incrementa o número de acertos
             if (resposta.correto) {
                 acertos = acertos + 1;
