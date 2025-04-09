@@ -1,5 +1,5 @@
 body {
-    background: url("https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg") no-repeat center center fixed;
+    background: url("NerdLounge.jpg") no-repeat center center fixed;
     background-size: cover;
     font-family: "Gabarito", sans-serif;
     margin: 20px;
@@ -31,9 +31,9 @@ body {
 }
 
 /* Títulos e textos */
-h2,
-p {
+h1, h2, p {
     color: white;
+    -webkit-text-stroke: 0.5px black;
 }
 
 /* Estrutura do questionário */
@@ -56,7 +56,8 @@ p {
 
 /* Estilo da pergunta */
 .pergunta {
-    font-weight: 600;
+    font-size: large;
+    font-weight: 800;
     color: white;
 }
 
@@ -85,11 +86,13 @@ p {
     cursor: pointer;
     background: #ff1b7b;
     color: white;
+    font-size: medium;
+    font-weight: 600;
 }
 
 .botao-resposta:hover {
     background: #19caca;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 /* Tela de fim do jogo */
